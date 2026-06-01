@@ -20,12 +20,20 @@ ROUTES = [
         "show_in_bottom": False,
     },
     {
+        "path": "/hero",
+        "view": "views.pages.hero_view.HeroView",
+        "label": "Hero",
+        "icon": ft.Icons.PERSON,
+        "show_in_top": False,
+        "show_in_bottom": True,
+    },
+    {
         "path": "/help",
         "view": "views.pages.help_view.HelpView",
         "label": "menu.help",
         "icon": ft.Icons.HELP,
         "show_in_top": True,
-        "show_in_bottom": True,
+        "show_in_bottom": False,
     }
 ]
 
