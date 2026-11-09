@@ -30,5 +30,5 @@ def main(page: ft.Page):
     except Exception as e:
         GlobalErrorHandler.handle(page, e)
 
-ft.app(main)
+ft.run(main)
 
